@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3f6618-de3c-42e8-99c3-a083cbf0252b" name="Default" comment="" />
+    <list default="true" id="fe3f6618-de3c-42e8-99c3-a083cbf0252b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mitarbeiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mitarbeiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeProjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeProjekt.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +20,10 @@
       <file leaf-file-name="Mitarbeiter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Mitarbeiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="403">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
+                <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#435#436#0" expanded="true" />
                 <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#507#508#0" expanded="true" />
@@ -41,9 +47,10 @@
       <file leaf-file-name="Projekt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projekt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-455">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="-672">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
+                <element signature="e#727#728#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
                 <element signature="e#815#816#0" expanded="true" />
                 <element signature="e#861#862#0" expanded="true" />
@@ -75,8 +82,8 @@
       <file leaf-file-name="TypeProjekt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TypeProjekt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="62">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,11 +97,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/TypeProjekt.java" />
         <option value="$PROJECT_DIR$/src/Projekt.java" />
+        <option value="$PROJECT_DIR$/src/TypeProjekt.java" />
         <option value="$PROJECT_DIR$/src/Mitarbeiter.java" />
       </list>
     </option>
@@ -108,12 +118,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5121" />
     <option name="y" value="-517" />
     <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -211,16 +222,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537019077250</updated>
-      <workItem from="1537019086374" duration="3655000" />
+      <workItem from="1537019086374" duration="10180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3655000" />
+    <option name="totallyTimeSpent" value="10180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-517" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
+    <frame x="-5121" y="-517" width="2560" height="1417" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -232,11 +242,11 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32948422" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -259,11 +269,37 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Mitarbeiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Projekt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="-672">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
+            <element signature="e#727#728#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
             <element signature="e#815#816#0" expanded="true" />
             <element signature="e#861#862#0" expanded="true" />
@@ -291,34 +327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mitarbeiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TypeProjekt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="62">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>

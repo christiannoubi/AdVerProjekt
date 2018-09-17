@@ -1,4 +1,4 @@
 public enum TypeProjekt {
 
-    OPENSOURCES, NONSOURCES
+    OPENSOURCES, NONOPENSOURCES
 }
