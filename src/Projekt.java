@@ -5,17 +5,19 @@ public class Projekt {
     private String nameProjekt;
     private String sourceProjekt;
     private Mitarbeiter mitarbeiter;
+    private AufgabeMitarbeiter aufgabeMitarbeiter;
     private String lageProjekt;
     private Date dateBiginn;
     private Date dateEnde;
 
-    public Projekt(String nameProjekt, String sourceProjekt, Mitarbeiter mitarbeiter, String lageProjekt, Date dateBiginn, Date dateEnde){
+    public Projekt(String nameProjekt, String sourceProjekt, Mitarbeiter mitarbeiter, String lageProjekt, Date dateBiginn, Date dateEnde, AufgabeMitarbeiter aufgabeMitarbeiter){
         this.nameProjekt = nameProjekt;
         this.sourceProjekt = sourceProjekt;
         this.mitarbeiter = mitarbeiter;
         this.lageProjekt = lageProjekt;
         this.dateBiginn = dateBiginn;
         this.dateEnde = dateEnde;
+        this.aufgabeMitarbeiter = aufgabeMitarbeiter;
     }
     public void status(){
 
@@ -48,7 +50,16 @@ public class Projekt {
         this.mitarbeiter = mitarbeiter;
     }
 
+    public AufgabeMitarbeiter getAufgabeMitarbeiter() {
+        return aufgabeMitarbeiter;
+    }
+
+    public void setAufgabeMitarbeiter(AufgabeMitarbeiter aufgabeMitarbeiter) {
+        this.aufgabeMitarbeiter = aufgabeMitarbeiter;
+    }
+
     public String getLageProjekt() {
+
         return lageProjekt;
     }
 

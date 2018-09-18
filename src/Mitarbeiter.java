@@ -4,9 +4,8 @@ public class Mitarbeiter {
     private String adresse;
     private String telefonnummer;
     private String standort;
-    private String title[] = { "Softwareentwickler", "Softwaretester", "Front-End", "Back-End", "Scrum Master", "Projekt Manager","Product Owner"};
 
-    public Mitarbeiter(String name, String adresse, String telefonnummer, String standort, String title[]){
+    public Mitarbeiter(String name, String adresse, String telefonnummer, String standort){
         this.name = name;
         this.adresse = adresse;
         this.telefonnummer = telefonnummer;
