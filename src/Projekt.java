@@ -2,22 +2,24 @@ import java.util.Date;
 
 public class Projekt {
 
+    private static  int ANZMITARBEITERZAEHLER = 0;
     private String nameProjekt;
     private String sourceProjekt;
     private Mitarbeiter mitarbeiter;
-    private AufgabeMitarbeiter aufgabeMitarbeiter;
     private String lageProjekt;
     private Date dateBiginn;
     private Date dateEnde;
+    private int anzahlMitarbeiter;
 
-    public Projekt(String nameProjekt, String sourceProjekt, Mitarbeiter mitarbeiter, String lageProjekt, Date dateBiginn, Date dateEnde, AufgabeMitarbeiter aufgabeMitarbeiter){
+
+
+    public Projekt(String nameProjekt, String sourceProjekt, String lageProjekt, Date dateBiginn, Date dateEnde, int anzahlMitarbeiter){
         this.nameProjekt = nameProjekt;
         this.sourceProjekt = sourceProjekt;
-        this.mitarbeiter = mitarbeiter;
+       anzahlMitarbeiter = ANZMITARBEITERZAEHLER++;
         this.lageProjekt = lageProjekt;
         this.dateBiginn = dateBiginn;
         this.dateEnde = dateEnde;
-        this.aufgabeMitarbeiter = aufgabeMitarbeiter;
     }
     public void status(){
 
@@ -25,7 +27,13 @@ public class Projekt {
     public void prioritaet(){
 
     }
+    public int getAnzahlMitarbeiter() {
+        return anzahlMitarbeiter;
+    }
 
+    public void setAnzahlMitarbeiter(int anzahlMitarbeiter) {
+        this.anzahlMitarbeiter = anzahlMitarbeiter;
+    }
     public String getNameProjekt() {
         return nameProjekt;
     }
@@ -48,14 +56,6 @@ public class Projekt {
 
     public void setMitarbeiter(Mitarbeiter mitarbeiter) {
         this.mitarbeiter = mitarbeiter;
-    }
-
-    public AufgabeMitarbeiter getAufgabeMitarbeiter() {
-        return aufgabeMitarbeiter;
-    }
-
-    public void setAufgabeMitarbeiter(AufgabeMitarbeiter aufgabeMitarbeiter) {
-        this.aufgabeMitarbeiter = aufgabeMitarbeiter;
     }
 
     public String getLageProjekt() {

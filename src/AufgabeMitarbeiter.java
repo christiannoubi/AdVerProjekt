@@ -18,4 +18,10 @@ public class AufgabeMitarbeiter {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+
+        return this.title+ this.description;
+    }
 }

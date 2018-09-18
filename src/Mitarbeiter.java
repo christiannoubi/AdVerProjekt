@@ -4,13 +4,16 @@ public class Mitarbeiter {
     private String adresse;
     private String telefonnummer;
     private String standort;
+    private AufgabeMitarbeiter aufgabeMitarbeiter;
 
-    public Mitarbeiter(String name, String adresse, String telefonnummer, String standort){
+    public Mitarbeiter(String name, String adresse, String telefonnummer, String standort)
+            //, AufgabeMitarbeiter aufgabeMitarbeiter
+                       {
         this.name = name;
         this.adresse = adresse;
         this.telefonnummer = telefonnummer;
         this.standort = standort;
-
+        this.aufgabeMitarbeiter = aufgabeMitarbeiter;
     }
 
     public String getName() {
@@ -43,5 +46,10 @@ public class Mitarbeiter {
 
     public void setStandort(String standort) {
         this.standort = standort;
+    }
+
+    @Override
+    public String toString() {
+        return this.name+this.adresse+this.telefonnummer+this.standort;
     }
 }
